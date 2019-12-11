@@ -6,6 +6,19 @@
       {% if feature.image != null %}
       <img class='{% cycle 'pull-right', 'pull-left' %}' src='{{ feature.image }}', width="500" height="500">
       {% elsif feature.plot != null %}
+        {% if feature.plot == "world_beehives" %}
+        <div id='world_beehives'>
+
+          <svg id='world_beehives_svg' width = '1000' height='1000'>
+          </svg>
+    
+          <div id='world_card' class='arrow_card' style="display: none">
+          </div>
+        </div>
+    
+        <script src="/assets/js/data.js"></script>
+        <script src="/assets/js/world_beehives.js"></script>
+        {% endif %}
       {% else %}
       <p> No image and no plot </p>
       {% endif %} 

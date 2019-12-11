@@ -1,0 +1,9 @@
+.info-card{
+	position: absolute;
+	padding: 10px;
+	border-radius: 5px;
+	background: white;
+	border: 1px solid black;
+	flex-direction: column;
+
+}

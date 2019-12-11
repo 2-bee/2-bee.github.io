@@ -1,0 +1,78 @@
+
+.logo{
+	display: block;
+	width:45px;
+	margin-right: auto;
+}
+
+.menu_link{
+	display: block;
+	min-width: 70px;
+	height: 100%;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-decoration:none;
+	color: inherit;	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.menu_link:hover{
+	background: rgba(0,0,0,0.1)
+	
+}
+
+.menu-container{
+	display: flex;
+	flex-direction: row;
+	height: 50px;
+	width: 95%;
+	padding-left: 10px;
+	padding-right: 10px;
+	max-width: 1024px;
+	justify-content: flex-end;
+
+}
+
+.menu{
+	background: yellow;
+	position: fixed;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	height: 50px;
+	width: 100%;
+	top: 0;
+}
+
+
+.section{
+	background: rgba(0,0,0,0.1);
+	padding: 10px;
+	margin-top: 10px;
+	border-radius: 10px;
+	max-width: 1024px;
+	width: 95%
+}
+
+
+.container{
+	background: #FBFBFB;
+	width: 100%;
+	padding-top: 60px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/*cursor: url(../data/img/bee_cursor.gif),auto;*/
+
+}
+.container:active{
+	cursor: url(../data/img/bee_cursor_clicked.png),auto;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+
+}
