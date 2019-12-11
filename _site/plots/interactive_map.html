@@ -1,0 +1,45 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>To bee or not to bee</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+
+  <link rel="stylesheet" href="css/common.css?v=1.0">
+  <link rel="stylesheet" href="css/interactive_map.css?v=1.0">
+
+  
+  <script src="https://d3js.org/d3.v4.js"></script>
+  <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
+  <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+  <!-- attrs()  -->
+  <script src="https://d3js.org/d3-selection-multi.v1.min.js"></script>
+
+</head>
+
+<body>
+
+    <div id='interactiveMap'>
+
+      <svg id='map' width = '1600' height='1000'>
+      </svg>
+
+      <div id='map_card' class='info-card' style="display: none">
+      </div>
+
+      <form id="data_selection" class='data_selection'>
+        <div><input  type='radio' id="beehives" name="mode" checked>Number of beehives</input></div>
+        <div><input type='radio' id="pop_density" name="mode">Beehives per habitant</input></div>
+        <div><input type='radio' id="land_density" name="mode">Beehives density</input></div>
+      </form>
+
+    </div>
+
+  <script src="js/data.js"></script>
+  <script src="js/interactive_map.js"></script>
+</body>
+</html>

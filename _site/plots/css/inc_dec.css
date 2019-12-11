@@ -1,0 +1,13 @@
+.track {
+  stroke: #777;
+  stroke-opacity: .2;
+  stroke-width: 5;
+}
+.track-overlay {
+  pointer-events: stroke;
+  stroke-width: 20px;
+}
+
+.slider-circle-time-from, .slider-circle-time-to {
+	cursor: pointer;  
+}

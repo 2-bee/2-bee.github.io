@@ -1,0 +1,15 @@
+title: To bee or not to be
+description: Analysing beehives trends
+sitename: 2-bee
+baseurl: ''
+sass:
+  sass_dir: /assets/_sass
+  style: :compressed
+collections:
+  - features
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE.txt
+  - CNAME
