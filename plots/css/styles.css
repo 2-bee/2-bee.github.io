@@ -35,6 +35,7 @@
 }
 
 .menu{
+	z-index:10;
 	background: yellow;
 	position: fixed;
 	display: flex;
