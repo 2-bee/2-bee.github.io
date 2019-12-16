@@ -3,22 +3,8 @@
     <hr id='{{ feature.id }}'>
 
     <section>
-      {% if feature.image != null %}
-      <img class='{% cycle 'pull-right', 'pull-left' %}' src='{{ feature.image }}', width="500" height="500">
-      {% elsif feature.plot != null %}
-        {% if feature.plot == "world_beehives" %}
-          {% include world_beehives.html %}
-        {% elsif feature.plot == "interactive_map" %}
-          {% include interactive_map.html %}
-
-        {% endif %}
-      {% else %}
-      <p> No image and no plot </p>
-      {% endif %} 
-      <h2>{{ feature.heading }}<span>{{ feature.subheading }}</span></h2>
       <div class='lead'>{{ feature.content }}</div>
     </section>
   {% endfor %}
-
   <hr>
 </main>

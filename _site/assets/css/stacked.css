@@ -1,30 +1,14 @@
-#world_beehives_svg{
-	position: relative
-}
-#world_beehives_svg path {
-  fill: none;
-  stroke: black;
-}
-
-#world_beehives_svg rect {
-  opacity: 0;
-}
-
-#world_beehives{
-	width: 100%
-}
-
-
-.arrow_card {
+.stacked_box {
 	position: absolute;
 	background: #ffffff;
 	border: 1px solid #000000;
 	padding: 10px;
 	border-radius: 5px;
 	flex-direction: column;
+	width:170px;
 }
-.arrow_card:after, .arrow_card:before {
-	bottom: 100%;
+.stacked_box:after, .stacked_box:before {
+	top: 100%;
 	left: 50%;
 	border: solid transparent;
 	content: " ";
@@ -34,15 +18,15 @@
 	pointer-events: none;
 }
 
-.arrow_card:after {
+.stacked_box:after {
 	border-color: rgba(255, 255, 255, 0);
-	border-bottom-color: #ffffff;
+	border-top-color: #ffffff;
 	border-width: 10px;
 	margin-left: -10px;
 }
-.arrow_card:before {
+.stacked_box:before {
 	border-color: rgba(0, 0, 0, 0);
-	border-bottom-color: #000000;
+	border-top-color: #000000;
 	border-width: 11px;
 	margin-left: -11px;
 }

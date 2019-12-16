@@ -15,6 +15,465 @@ var country_correspondance={
   'Vietnam':'Viet Nam'
 }
 
+var continent_beehives=[
+    {
+        "Year": 1961,
+        "Africa": 6845050,
+        "Europe": 21097615,
+        "America": 10019254,
+        "Asia": 10704894,
+        "Oceania": 506660
+    },
+    {
+        "Year": 1962,
+        "Africa": 6986195,
+        "Europe": 21182265,
+        "America": 10038371,
+        "Asia": 10901851,
+        "Oceania": 530345
+    },
+    {
+        "Year": 1963,
+        "Africa": 7291050,
+        "Europe": 21758651,
+        "America": 9388825,
+        "Asia": 11040696,
+        "Oceania": 491061
+    },
+    {
+        "Year": 1964,
+        "Africa": 7365275,
+        "Europe": 21159899,
+        "America": 9261154,
+        "Asia": 11305317,
+        "Oceania": 533889
+    },
+    {
+        "Year": 1965,
+        "Africa": 7822375,
+        "Europe": 20966688,
+        "America": 8221129,
+        "Asia": 12831637,
+        "Oceania": 526280
+    },
+    {
+        "Year": 1966,
+        "Africa": 7950264,
+        "Europe": 21215962,
+        "America": 8287992,
+        "Asia": 14118065,
+        "Oceania": 511103
+    },
+    {
+        "Year": 1967,
+        "Africa": 7717458,
+        "Europe": 21473087,
+        "America": 8335563,
+        "Asia": 14240893,
+        "Oceania": 521193
+    },
+    {
+        "Year": 1968,
+        "Africa": 7667631,
+        "Europe": 21553536,
+        "America": 8366840,
+        "Asia": 14421992,
+        "Oceania": 563801
+    },
+    {
+        "Year": 1969,
+        "Africa": 7874429,
+        "Europe": 21657465,
+        "America": 8706947,
+        "Asia": 14737413,
+        "Oceania": 502423
+    },
+    {
+        "Year": 1970,
+        "Africa": 8150830,
+        "Europe": 21111815,
+        "America": 8958470,
+        "Asia": 15229994,
+        "Oceania": 568802
+    },
+    {
+        "Year": 1971,
+        "Africa": 8276850,
+        "Europe": 21438088,
+        "America": 8380990,
+        "Asia": 15496242,
+        "Oceania": 582030
+    },
+    {
+        "Year": 1972,
+        "Africa": 8391825,
+        "Europe": 21276848,
+        "America": 8664193,
+        "Asia": 15548537,
+        "Oceania": 600620
+    },
+    {
+        "Year": 1973,
+        "Africa": 8452865,
+        "Europe": 21668169,
+        "America": 8782846,
+        "Asia": 15790608,
+        "Oceania": 616047
+    },
+    {
+        "Year": 1974,
+        "Africa": 8627907,
+        "Europe": 21067973,
+        "America": 9051772,
+        "Asia": 15817587,
+        "Oceania": 630436
+    },
+    {
+        "Year": 1975,
+        "Africa": 8894825,
+        "Europe": 21062925,
+        "America": 9214843,
+        "Asia": 15968566,
+        "Oceania": 709965
+    },
+    {
+        "Year": 1976,
+        "Africa": 8960050,
+        "Europe": 20660367,
+        "America": 9416066,
+        "Asia": 15986723,
+        "Oceania": 717077
+    },
+    {
+        "Year": 1977,
+        "Africa": 8758450,
+        "Europe": 20837161,
+        "America": 9567827,
+        "Asia": 16326440,
+        "Oceania": 714689
+    },
+    {
+        "Year": 1978,
+        "Africa": 9066075,
+        "Europe": 21940586,
+        "America": 9567208,
+        "Asia": 16423198,
+        "Oceania": 708957
+    },
+    {
+        "Year": 1979,
+        "Africa": 9232100,
+        "Europe": 21731227,
+        "America": 9897600,
+        "Asia": 16886254,
+        "Oceania": 744613
+    },
+    {
+        "Year": 1980,
+        "Africa": 9373150,
+        "Europe": 21420093,
+        "America": 10029356,
+        "Asia": 18614607,
+        "Oceania": 761222
+    },
+    {
+        "Year": 1981,
+        "Africa": 9707975,
+        "Europe": 21726143,
+        "America": 10580414,
+        "Asia": 19465522,
+        "Oceania": 768807
+    },
+    {
+        "Year": 1982,
+        "Africa": 10009600,
+        "Europe": 21834699,
+        "America": 10592211,
+        "Asia": 20369194,
+        "Oceania": 816996
+    },
+    {
+        "Year": 1983,
+        "Africa": 10009500,
+        "Europe": 22054026,
+        "America": 10943341,
+        "Asia": 20847873,
+        "Oceania": 816643
+    },
+    {
+        "Year": 1984,
+        "Africa": 10507125,
+        "Europe": 22405275,
+        "America": 11086138,
+        "Asia": 21240135,
+        "Oceania": 821617
+    },
+    {
+        "Year": 1985,
+        "Africa": 10972200,
+        "Europe": 23005170,
+        "America": 11191497,
+        "Asia": 21411964,
+        "Oceania": 877692
+    },
+    {
+        "Year": 1986,
+        "Africa": 11454325,
+        "Europe": 23242102,
+        "America": 10136840,
+        "Asia": 21392778,
+        "Oceania": 903547
+    },
+    {
+        "Year": 1987,
+        "Africa": 11786125,
+        "Europe": 23471899,
+        "America": 9889730,
+        "Asia": 21575806,
+        "Oceania": 719696
+    },
+    {
+        "Year": 1988,
+        "Africa": 12022625,
+        "Europe": 22398798,
+        "America": 10007266,
+        "Asia": 23132048,
+        "Oceania": 717024
+    },
+    {
+        "Year": 1989,
+        "Africa": 12694622,
+        "Europe": 22694857,
+        "America": 10166748,
+        "Asia": 22929232,
+        "Oceania": 751148
+    },
+    {
+        "Year": 1990,
+        "Africa": 13185854,
+        "Europe": 22466656,
+        "America": 9713442,
+        "Asia": 23130582,
+        "Oceania": 741379
+    },
+    {
+        "Year": 1991,
+        "Africa": 13759094,
+        "Europe": 21740465,
+        "America": 9916445,
+        "Asia": 23821268,
+        "Oceania": 714945
+    },
+    {
+        "Year": 1992,
+        "Africa": 14051600,
+        "Europe": 17804191,
+        "America": 9856679,
+        "Asia": 25089994,
+        "Oceania": 689246
+    },
+    {
+        "Year": 1993,
+        "Africa": 13739700,
+        "Europe": 17301276,
+        "America": 9799190,
+        "Asia": 25184585,
+        "Oceania": 679266
+    },
+    {
+        "Year": 1994,
+        "Africa": 14069000,
+        "Europe": 16418600,
+        "America": 9705044,
+        "Asia": 25135172,
+        "Oceania": 774772
+    },
+    {
+        "Year": 1995,
+        "Africa": 14062337,
+        "Europe": 16090198,
+        "America": 9545575,
+        "Asia": 25663970,
+        "Oceania": 801786
+    },
+    {
+        "Year": 1996,
+        "Africa": 14395882,
+        "Europe": 15851960,
+        "America": 9192806,
+        "Asia": 25779529,
+        "Oceania": 772568
+    },
+    {
+        "Year": 1997,
+        "Africa": 14158420,
+        "Europe": 15340291,
+        "America": 9078162,
+        "Asia": 26563613,
+        "Oceania": 793185
+    },
+    {
+        "Year": 1998,
+        "Africa": 14057474,
+        "Europe": 15278716,
+        "America": 9525451,
+        "Asia": 27030317,
+        "Oceania": 715637
+    },
+    {
+        "Year": 1999,
+        "Africa": 14429620,
+        "Europe": 15165580,
+        "America": 10602785,
+        "Asia": 26193849,
+        "Oceania": 680292
+    },
+    {
+        "Year": 2000,
+        "Africa": 15915322,
+        "Europe": 15144609,
+        "America": 10624656,
+        "Asia": 26818529,
+        "Oceania": 796939
+    },
+    {
+        "Year": 2001,
+        "Africa": 16667411,
+        "Europe": 15364135,
+        "America": 10568543,
+        "Asia": 27051227,
+        "Oceania": 742207
+    },
+    {
+        "Year": 2002,
+        "Africa": 17453211,
+        "Europe": 15356163,
+        "America": 10616187,
+        "Asia": 27688189,
+        "Oceania": 715258
+    },
+    {
+        "Year": 2003,
+        "Africa": 16917261,
+        "Europe": 15359545,
+        "America": 10560767,
+        "Asia": 28464727,
+        "Oceania": 706800
+    },
+    {
+        "Year": 2004,
+        "Africa": 16909639,
+        "Europe": 15547345,
+        "America": 10571994,
+        "Asia": 29245255,
+        "Oceania": 699359
+    },
+    {
+        "Year": 2005,
+        "Africa": 17358849,
+        "Europe": 15765899,
+        "America": 10430400,
+        "Asia": 30019437,
+        "Oceania": 701881
+    },
+    {
+        "Year": 2006,
+        "Africa": 17150721,
+        "Europe": 16053566,
+        "America": 10729023,
+        "Asia": 30874995,
+        "Oceania": 709101
+    },
+    {
+        "Year": 2007,
+        "Africa": 16363017,
+        "Europe": 15940670,
+        "America": 10545057,
+        "Asia": 31386690,
+        "Oceania": 731769
+    },
+    {
+        "Year": 2008,
+        "Africa": 16339675,
+        "Europe": 15711366,
+        "America": 10577999,
+        "Asia": 32723600,
+        "Oceania": 767269
+    },
+    {
+        "Year": 2009,
+        "Africa": 15927464,
+        "Europe": 15532658,
+        "America": 10771747,
+        "Asia": 34103511,
+        "Oceania": 759678
+    },
+    {
+        "Year": 2010,
+        "Africa": 16083587,
+        "Europe": 15881398,
+        "America": 11019940,
+        "Asia": 35933821,
+        "Oceania": 764941
+    },
+    {
+        "Year": 2011,
+        "Africa": 15922478,
+        "Europe": 16272212,
+        "America": 10953504,
+        "Asia": 36564559,
+        "Oceania": 690847
+    },
+    {
+        "Year": 2012,
+        "Africa": 16616932,
+        "Europe": 17065826,
+        "America": 10931644,
+        "Asia": 37729639,
+        "Oceania": 714277
+    },
+    {
+        "Year": 2013,
+        "Africa": 16421472,
+        "Europe": 17151268,
+        "America": 11124950,
+        "Asia": 39150980,
+        "Oceania": 1006024
+    },
+    {
+        "Year": 2014,
+        "Africa": 16801350,
+        "Europe": 17758810,
+        "America": 11277745,
+        "Asia": 40515487,
+        "Oceania": 1060651
+    },
+    {
+        "Year": 2015,
+        "Africa": 16940506,
+        "Europe": 18295324,
+        "America": 11273221,
+        "Asia": 41425956,
+        "Oceania": 1050401
+    },
+    {
+        "Year": 2016,
+        "Africa": 17290628,
+        "Europe": 18668671,
+        "America": 11363990,
+        "Asia": 42093232,
+        "Oceania": 1076920
+    },
+    {
+        "Year": 2017,
+        "Africa": 17507222,
+        "Europe": 18764349,
+        "America": 11139203,
+        "Asia": 42372690,
+        "Oceania": 1216267
+    }
+]
+
 var beehives_world=[
     {
         "x": 1961,
@@ -31854,3 +32313,15 @@ var beehives={
         }
     }
 }
+
+
+var top10_beehives=[{'Area': 'India', 'Value': 12763684.0},
+ {'Area': 'China', 'Value': 9156882.0},
+ {'Area': 'Turkey', 'Value': 7796666.0},
+ {'Area': 'Iran (Islamic Republic of)', 'Value': 7271825.0},
+ {'Area': 'Ethiopia', 'Value': 6139990.0},
+ {'Area': 'Russian Federation', 'Value': 3349976.0},
+ {'Area': 'Argentina', 'Value': 3003036.0},
+ {'Area': 'United Republic of Tanzania', 'Value': 2998785.0},
+ {'Area': 'Spain', 'Value': 2904971.0},
+ {'Area': 'United States of America', 'Value': 2669000.0}]

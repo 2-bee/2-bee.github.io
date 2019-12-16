@@ -34,7 +34,9 @@ world_bee_plot.append('rect')
   .attr('width', wb_width)
   .attr('height', wb_height)
   .on('mousemove', function() {
-    var x = d3.event.x-wb_margin.left/2 -5;
+    var scale_coeff = 960/document.getElementById('world_beehives_svg').getBoundingClientRect().width
+    var x = d3.event.x-document.getElementById('world_beehives_svg').getBoundingClientRect().x;
+    x= x *scale_coeff -wb_margin.left/2 
     var y = interp(x / wb_scaleX(end_year ));
     world_bee_plot.select('circle')
       .attr('cx', x)
@@ -46,9 +48,15 @@ world_bee_plot.append('rect')
     let info_data = "<label style='font-size:20px'>"+val+' Beehives</label>'
     info_data = info_data+ "<label >In "+year+'</label>'
 
+    var doc = document.documentElement;
+    var left = (window.pageXOffset || doc.scrollLeft) - (doc.clientLeft || 0);
+    var top = (window.pageYOffset || doc.scrollTop)  - (doc.clientTop || 0);
+
+    x = d3.event.x//-document.getElementById('world_beehives_svg').getBoundingClientRect().x;
+
     d3.select('#world_card').html(info_data)
-       .style("left", (x-32.5) + "px")
-       .style("top", (wb_scaleY(y)+wb_margin.top/2+20) + "px")
+       .style("left", (x-90) + "px")
+       .style("top", ((wb_scaleY(y)+wb_margin.top/2)/scale_coeff+10+document.getElementById('world_beehives_svg').getBoundingClientRect().y)+top + "px")
        .style("display", 'flex');
 
   })
