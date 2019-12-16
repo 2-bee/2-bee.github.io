@@ -39,6 +39,7 @@ How beehives are distributed in the world, which countries are the best when it 
 Below we present the top 10 countries, both for number of beehives and for the ratio (number of beehives in country / total surface area of country). 
 
 ------
+
 - plot top 10 countries for number of beehives + plot top 10 countries for number of beehives divided by total land surface area(ratio)
 
 
@@ -54,17 +55,10 @@ Since we believe this is not a fair competition we will show the top ten countri
 ------
 
 ### But, what factors influence beehives? 
-We took into consideration some of the available categories in the dataset, crops and forestry, and for each one we analysed the correlation with beehives. 
+We took into consideration some of the available categories in the dataset, mainly related to crops, and for each one we analysed the correlation with beehives. 
 We are presenting below the obtained results and providing some explanation of why these factors could be correlated.
 
 #### Crops
 80% of flowering plants depend upon bees for pollination. Pollination is crucial because many of our vegetables, fruits and the crops that feed our livestock rely on it to be fertilised. Vegetables such as broccoli, asparagus and cucumber rely on the pollination of bees, as do apricots, strawberries, apples, tomatoes and almonds.
 
 (-- plot here ???)
-
-#### FORESTRY (still not convinced about this)
-As highlighted previously, bees feed on pollen and nectar from flowers. But did you know that pollen and nectar from trees can be a very important part of their diet too, and that trees also depend on pollination from bees?
-We tried to see if this is reflected in our data and the main discovery is that in most of the countries with a big decrease in the number of beehives the percentage of the total land covered by forests is quite low, around 30-40%. 
-
--- here the world map for forests with ratio
-
