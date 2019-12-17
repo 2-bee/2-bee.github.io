@@ -4,7 +4,9 @@ name: Introduction
 ---
 
 ## Introduction
-Reportedly, in recent years there has been a decrease in the number of beehives in the world. However, after a small preliminary analysis we found out that this is not the case. Indeed, beehives are globally increasing!
+Do you think bees are dying out everywhere in the world? 
+
+Well that is only partially true and for sure not looking at the problem globally. Reportedly, in recent years there has been a decrease in the number of beehives in the world. However, after a preliminary analysis we found out that this is not the case. Indeed, beehives are globally increasing! We will look into this phenomena more closely. 
 
 But, even if bees are not declining on a global scale, they still face many threats and some countries are more affected than others. Threats such as habitat loss, toxic pesticides, parasites, diseases, climate change and invasive species, are still a big problem for bees and, from a broader perspective, for biodiversity.
 
