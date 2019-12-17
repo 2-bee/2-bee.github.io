@@ -13,4 +13,10 @@
 	flex-direction: column;
 	}
 
+.data_selection input{
+	margin-right: 10px
+}
 
+.data_selection div{
+	margin-right: 15px
+}

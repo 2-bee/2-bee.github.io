@@ -2,10 +2,12 @@
 var countries = ['France',
 				 'China',
 				 'United States of America',
-				 'Sweden',
 				 'Switzerland',
 				 'Spain',
-				 'Portugal']
+				 'Portugal',
+				 'Italy',
+				 'Mexico',
+				 'Canada']
 
 var year_range=[1974,2003]
 
@@ -176,7 +178,7 @@ function id_ready(){
 
 	
 
-	id_x.domain(d3.extent(inc_dec_data(), function(d) { return d.value; })).nice();
+	id_x.domain([-150,500]).nice();
 	id_y.domain(inc_dec_data().map(function(d) { return d.name; }));
 
 	inc_dec.append('g')
@@ -184,7 +186,7 @@ function id_ready(){
 		  .selectAll(".bar")
 		  .data(inc_dec_data())
 		  .enter().append("rect")
-		  .attr("fill", function(d) { return (d.value < 0 ? "blue" : "red"); })
+		  .attr("fill", function(d) { return (d.value < 0 ? "rgba(0,0,255,0.5" : "red"); })
 		  .attr("x", function(d) { return id_x(Math.min(0, d.value)); })
 		  .attr("y", function(d) { return id_y(d.name)+5; })
 		  .attr("width", function(d) { return Math.abs(id_x(d.value) - id_x(0)); })
@@ -230,7 +232,7 @@ function update_inc_dec(){
 	    .tickSize(0)
 	    .tickPadding(6);
 
-	id_x.domain(d3.extent(inc_dec_data(), function(d) { return d.value; })).nice();
+	id_x.domain([-150,500]).nice();
 	id_y.domain(inc_dec_data().map(function(d) { return d.name; }));
 
     
@@ -239,7 +241,7 @@ function update_inc_dec(){
 		.data(inc_dec_data())
 		.transition()
       	.duration('200')
-		.attr("fill", function(d) { return (d.value < 0 ? "blue" : "red"); })
+		.attr("fill", function(d) { return (d.value < 0 ? "rgba(0,0,255,0.5" : "red"); })
 		  .attr("x", function(d) { return id_x(Math.min(0, d.value)); })
 		  .attr("y", function(d) { return id_y(d.name)+5; })
 		  .attr("width", function(d) { return Math.abs(id_x(d.value) - id_x(0)); })
@@ -279,7 +281,7 @@ function inc_dec_data(){
 	for (let i=0; i<countries.length; i++){
 		let obj={}
 		obj.name=countries[i]
-		obj.value=max_year[obj.name].beehives-min_year[obj.name].beehives
+		obj.value=(max_year[obj.name].beehives-min_year[obj.name].beehives)/min_year[obj.name].beehives*100
 
 		result.push(obj)
 	}

@@ -30,7 +30,7 @@ stacked_svg.append("g")
 
 // Add Y axis
 var stacked_y = d3.scaleLinear()
-  .domain([0, 120000000])
+  .domain([0, 100000000])
   .range([ stacked_height, 0 ]);
 stacked_svg.append("g")
   .attr("transform", "translate("+stacked_width+",0)")
@@ -90,7 +90,7 @@ areas.on('mousemove',function(){
 
     d3.select('#stacked_card')
       .html(info_data)
-      .style('left',(d3.event.x-stacked_margin.left-78)+'px') 
+      .style('left',(d3.event.x-document.getElementById('stacked_card').offsetWidth/2)+'px') 
       .style('top',(18+document.getElementById('stacked_svg').getBoundingClientRect().y+top)+'px') 
       .style('display','flex') 
   })

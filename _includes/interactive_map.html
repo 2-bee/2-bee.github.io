@@ -22,18 +22,18 @@
 <body>
 
       <div id='interactiveMap'>
-
+        <form id="data_selection" class='data_selection'>
+          <div><input type='radio' id="beehives" name="mode" checked>Number of beehives</div>
+          <div><input type='radio' id="pop_density" name="mode">Beehives per habitant</div>
+          <div><input type='radio' id="land_density" name="mode">Beehives density</div>
+        </form>
         <svg id='map' width = '1600' height='1000'  
           viewBox="0 0 1600 1000"
           perserveAspectRatio="xMinYMid">
         </svg>
 
         
-        <form id="data_selection" class='data_selection'>
-          <div><input  type='radio' id="beehives" name="mode" checked>Number of beehives</div>
-          <div><input type='radio' id="pop_density" name="mode">Beehives per habitant</div>
-          <div><input type='radio' id="land_density" name="mode">Beehives density</div>
-        </form>
+
         <div id='map_card' class='info-card' style="display: none">
         </div>
         

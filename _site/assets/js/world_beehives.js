@@ -55,7 +55,7 @@ world_bee_plot.append('rect')
     x = d3.event.x//-document.getElementById('world_beehives_svg').getBoundingClientRect().x;
 
     d3.select('#world_card').html(info_data)
-       .style("left", (x-90) + "px")
+       .style("left", (x-document.getElementById('world_card').offsetWidth/2) + "px")
        .style("top", ((wb_scaleY(y)+wb_margin.top/2)/scale_coeff+10+document.getElementById('world_beehives_svg').getBoundingClientRect().y)+top + "px")
        .style("display", 'flex');
 
@@ -70,7 +70,7 @@ world_bee_plot.append('rect')
 
 world_bee_plot.append('path')
  .attr('d', lineGen(beehives_world))
- .style('stroke','yellow')
+ .style('stroke','red')
  .style('stroke-width','2')
 
 world_bee_plot.append('circle')
