@@ -5,7 +5,7 @@
 	padding: 10px;
 	border-radius: 5px;
 	flex-direction: column;
-	width:170px;
+	
 }
 .stacked_box:after, .stacked_box:before {
 	top: 100%;
