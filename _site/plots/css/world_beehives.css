@@ -1,15 +1,17 @@
+#world_beehives_svg{
+	position: relative
+}
 #world_beehives_svg path {
   fill: none;
   stroke: black;
 }
 
 #world_beehives_svg rect {
-  fill: white;
+  opacity: 0;
 }
 
 #world_beehives{
-	width: min-content;
-	height: min-content
+	width: 100%
 }
 
 

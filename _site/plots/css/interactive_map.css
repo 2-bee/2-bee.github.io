@@ -1,9 +1,9 @@
 #interactiveMap{
-	width: 1600px;
-	height:1000px;
+	width: 100%;
+
 }
 #map{
-	position: absolute;
+	position: relative;
 }
 
 .data_selection{
@@ -11,8 +11,6 @@
 	position: relative;
 	display: flex;
 	flex-direction: column;
-	top:50px;
-	left: 110px; 
-}
+	}
 
 

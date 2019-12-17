@@ -23,23 +23,27 @@
 
 <body>
 
-    <div id='interactiveMap'>
+      <div id='interactiveMap'>
 
-      <svg id='map' width = '1600' height='1000'>
-      </svg>
+        <svg id='map' width = '1600' height='1000'  
+          viewBox="0 0 1600 1000"
+          perserveAspectRatio="xMinYMid">
+        </svg>
 
-      <div id='map_card' class='info-card' style="display: none">
+        
+        <form id="data_selection" class='data_selection'>
+          <div><input  type='radio' id="beehives" name="mode" checked>Number of beehives</input></div>
+          <div><input type='radio' id="pop_density" name="mode">Beehives per habitant</input></div>
+          <div><input type='radio' id="land_density" name="mode">Beehives density</input></div>
+        </form>
+        <div id='map_card' class='info-card' style="display: none">
+        </div>
+        
+
       </div>
-
-      <form id="data_selection" class='data_selection'>
-        <div><input  type='radio' id="beehives" name="mode" checked>Number of beehives</input></div>
-        <div><input type='radio' id="pop_density" name="mode">Beehives per habitant</input></div>
-        <div><input type='radio' id="land_density" name="mode">Beehives density</input></div>
-      </form>
-
-    </div>
 
   <script src="js/data.js"></script>
   <script src="js/interactive_map.js"></script>
+  <script src="js/resize.js"></script>
 </body>
 </html>
