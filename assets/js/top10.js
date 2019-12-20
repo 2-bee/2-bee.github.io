@@ -12,8 +12,8 @@ var top_10 = d3.select("#top10_svg")
           "translate(" + margin_top10.left + "," + margin_top10.top + ")");
 
 top_10_scale={
-  'beehives':[0, 13000000],
-  'land_density':[0,200]
+  'beehives':[0, 1],
+  'land_density':[0,1]
 }
 top10_data='beehives'
 
@@ -94,10 +94,25 @@ function update_top_10(){
 
 function top10_Data(){
   if(top10_data == 'beehives'){
-    return top10_beehives['beehives']
+    let res =JSON.parse(JSON.stringify(top10_beehives['beehives']))
+
+    for(let i=0;i<res.length;i++){
+      let max =top10_beehives['beehives'][0].Value
+      res[i].Value=res[i].Value/max
+      console.log(max)
+    }
+
+    return res
   }
   if (top10_data=='land_density'){
-    return top10_beehives['density']
+    let res = JSON.parse(JSON.stringify(top10_beehives['density']))
+
+    for(let i=0;i<res.length;i++){
+      let max =top10_beehives['density'][0].Value
+      res[i].Value=res[i].Value/max
+    }
+
+    return res
   }
 
 
