@@ -6,22 +6,23 @@ name: Introduction
 ## Introduction
 Do you think bees are dying out everywhere in the world? 
 
-Well, even though everyone is talking about bee population declining, this is only partially true and actually far from true if looking at the global situation. Reportedly, in recent years there has been a decrease in the number of beehives in the world. However, after a preliminary analysis, we found out that this is not the case. Indeed, beehives are globally increasing! We will look into this phenomena more closely. 
+Well, even though everyone is talking about bee population _declining_, this is only partially true and actually far from true if looking at the global situation. Reportedly, in recent years there has been a decrease in the number of beehives in the world. However, after a preliminary analysis, we found out that this is not the case. Indeed, beehives are globally _increasing_! We will look into this phenomena more closely. 
 
-But, even if bees are not declining on a global scale, they still face many threats and some countries are more affected than others. Threats such as habitat loss, toxic pesticides, parasites, diseases, climate change, and invasive species, are still a big problem for bees and, from a broader perspective, for biodiversity.
+But, even if bees are not declining on a global scale, they still face many _threats_ and some countries are more affected than others. Threats such as habitat loss, toxic pesticides, parasites, diseases, climate change, and invasive species, are still a big problem for bees and, from a broader perspective, for biodiversity.
 
-In this article, we present a data-driven analysis of the present and the past of the bees situation, with a focus on their relation with some outer factors related to agriculture.
 
-The reason behind this choice is that bees are not only important for producing honey and other bee products, but they also play a crucial role in the pollination process which is necessary for the development of crops.
+In this article, we present a data-driven analysis of the present and the past of the bees situation, with a focus on their relation with some outer factors related to _agriculture_.
 
-At the beginning, we will introduce trends for the total beehives number and their correlation with factors and, to conclude, we will present two kinds of prediction models that we trained, one for predicting the number of beehives given the amount of crops production and country size and the other for beehives population forecasting.
+The reason behind this choice is that bees are not only important for producing honey and other bee products, but they also play a crucial role in the _pollination_ process which is necessary for the development of crops.
+
+At the beginning, we will introduce trends for the total beehives number and their correlation with factors and, to conclude, we will present two kinds of _prediction_ models that we trained, one for predicting the number of beehives given the amount of crops production and country size and the other for beehives population forecasting.
 
 # Where does the data come from?
-The dataset we are using is about global food and agriculture statistics and it is provided by the United Nations ([FAOSTAT](http://www.fao.org/faostat/en/#home "FAOSTAT")). It contains various agricultural data for 200 countries and about nearly 80 categories(crops, forestry, animals, prices, etc.), and most importantly beehives.
+The dataset we are using is about global food and agriculture statistics and it is provided by the United Nations ([FAOSTAT](http://www.fao.org/faostat/en/#home "FAOSTAT")). It contains various agricultural data for 200 countries and about nearly 80 categories(crops, forestry, animals, prices, etc.), and most importantly beehives. An important thing to mention is that this data contains only the the honey bee species that are kept by beekepers and doesn't include all the wild bee species that are present all over the World.
 
 
 # Beehives, a good indicator?
-Obviously the number of beehives is not the same as the total number of bees. Nonetheless we assume the numbers to be highly correlated and that beehives is a good indicator of the bee population. Of course, it would be nearly impossible to count all the bees, so the experts usually talk about bee colonies instead which coresponds to beehives and bee nests. The assumption we make is that beekepers remove beehives that don't have any bees inside and that those are not included in the count.
+Obviously the number of beehives is not the same as the total number of bees. Nonetheless we assume the numbers to be highly correlated and that beehives is a good indicator of the bee population. Of course, it would be nearly impossible to count all the bees, so the experts usually talk about _bee colonies_ instead which coresponds to beehives and bee nests. The assumption we make is that beekepers remove beehives that don't have any bees inside and that those are not included in the count.
 
 ------
 
