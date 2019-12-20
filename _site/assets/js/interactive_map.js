@@ -277,12 +277,12 @@ function ready(data) {
        .attr('x', 65)
        .text(years[year_id]);
     d3.select('#timeline')
-    .append('g')
-    .attr('transform','rotate(-90), translate(-'+(57 * 5+25)+',-15)')
-    .append("text")// add legend title
-      .style("font", "20px times")
-      .attr('fill','black')
-      .text('Years');
+      .append('g')
+      .attr('transform','rotate(-90), translate(-'+(57 * 5+25)+',-15)')
+      .append("text")// add legend title
+        .style("font", "20px times")
+        .attr('fill','black')
+        .text('Years');
     //ticks
     d3.select('#timeline')
         .append('g')
@@ -358,6 +358,19 @@ function ready(data) {
       .attr("y", -30)
       .attr('x',(width-180)/2)
       .text(data_name);
+
+    svg.append("rect")
+       .attr('width','50')
+       .attr('height','50') 
+       .attr('fill','#b8b8b8') 
+       .attr('x',(100))
+       .attr("y", height-250)
+    svg.append('text')
+       .style("font", "20px times")
+        .attr('fill','black')
+        .attr("x", 100 +50+10)
+        .attr('y',height-250 +30)
+        .text('N/A');
 
 }
 
