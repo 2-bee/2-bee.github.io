@@ -2,24 +2,24 @@ header {
   display: block;
   width: 100%;
   text-align: center;
-  background: url('https://i.pinimg.com/originals/76/11/e9/7611e9aabeab5c2a216f4251da4973f3.jpg') no-repeat center center scroll;
+  background: url('https://d.newsweek.com/en/full/1526192/honeycomb-bees-honeybees-insect-honey-stock-getty.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
 
-  .headline { padding: 120px 0; }
+  .headline { padding: 300px 0; }
 
   h1 {
-    font-size: 130px;
+    font-size: 100px;
     background: #fff;
-    background: rgba(255,255,255,0.9);
+    background: rgba(255,255,255,0.7);
   }
 
   h2 {
     font-size: 77px;
     background: #fff;
-    background: rgba(255,255,255,0.9);
+    background: rgba(255,255,255,0.7);
   }
 
   @media(max-width:1200px) {

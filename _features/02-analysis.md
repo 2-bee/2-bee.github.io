@@ -5,32 +5,24 @@ name: Analysis
 
 ## Analysis
 
-# How are beehives distributed?
-The number of beehives in the world is not equally distributed and is not constant over time. We explore the change in the world, continents and certain countries.
+# How are the beehives distributed?
+The number of beehives in the world is not equally distributed and is not constant over time. We explore the change in the world, continents and certain countries. To start with, we introduce the world beehives population trend in an interactive graph.
 
-
-### **Over time**
 
 {% include world_beehives.html %}
 
 We can see that the number of beehives is actually increasing in the world, in fact the total number of beehives increased 185.06% over the last 56 Years!
-But there still could be some differences between continents. Let’s look at this. 
-
-------
+But there could still be some differences between continents. Let’s look at this. 
 
 {% include stacked.html %}
 
 Not only we see a huge increase on the asian and african continent, we see a massive drop in Europe and America. America recovered but Europe still suffers in order to increase their population.
+ 
+ ------
 
-------
-
-We are now picking some of the most interesting countries, in particular the ones where the number of beehives is decreasing and showing how much they change with variations in the range of considered years.
-
-------
+We picked some of the most interesting countries, in particular the ones with high increase or decrease in the number of beehives. The graph shows the percentage changes between the two picked year at the bottom. This graph is __interactive__ as well, so free feel to explore! 
 
 {% include inc_dec.html %}
-
-(Describe this plot)
 
 ------
 

@@ -10,7 +10,7 @@ In our project we answered several questions using different datasets. During th
 
 # #whodidwhat
 
-- Alen:         Several plots, integrating further data into the analysis, Crops correlation
+- Alen:         Several plots, integrating further data into the analysis, Crops correlation and prediction
 - Anel:         Milestones, World maps, analysing beehives dataset, arima
 - Francesco:    Correlations, writing the Data Story, website
 - Mateo:        Correlations, Website, Plots on the webpage

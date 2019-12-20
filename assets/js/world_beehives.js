@@ -30,6 +30,10 @@ var world_bee_plot = d3.select("#world_beehives_svg")
   .append('g')
   .attr('transform','translate('+wb_margin.left/2+','+wb_margin.top/2+')');
 
+function numberWithCommas(x) {
+  return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}
+
 world_bee_plot.append('rect')
   .attr('width', wb_width)
   .attr('height', wb_height)
@@ -45,8 +49,8 @@ world_bee_plot.append('rect')
     let year = Math.round(wb_scaleX.invert(x))
     let val = Math.round(y)
 
-    let info_data = "<label style='font-size:20px'>"+val+' Beehives</label>'
-    info_data = info_data+ "<label >In "+year+'</label>'
+    let info_data = "<label>beehives: "+numberWithCommas(val)+'</label>'
+    info_data = info_data+ "<label>year: "+year+'</label>'
 
     var doc = document.documentElement;
     var left = (window.pageXOffset || doc.scrollLeft) - (doc.clientLeft || 0);
