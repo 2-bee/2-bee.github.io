@@ -32315,13 +32315,89 @@ var beehives={
 }
 
 
-var top10_beehives=[{'Area': 'India', 'Value': 12763684.0},
- {'Area': 'China', 'Value': 9156882.0},
- {'Area': 'Turkey', 'Value': 7796666.0},
- {'Area': 'Iran (Islamic Republic of)', 'Value': 7271825.0},
- {'Area': 'Ethiopia', 'Value': 6139990.0},
- {'Area': 'Russian Federation', 'Value': 3349976.0},
- {'Area': 'Argentina', 'Value': 3003036.0},
- {'Area': 'United Republic of Tanzania', 'Value': 2998785.0},
- {'Area': 'Spain', 'Value': 2904971.0},
- {'Area': 'United States of America', 'Value': 2669000.0}]
+var top10_beehives={
+    "beehives": [
+        {
+            "Area": "India",
+            "Value": 12763684.0
+        },
+        {
+            "Area": "China",
+            "Value": 9156882.0
+        },
+        {
+            "Area": "Turkey",
+            "Value": 7796666.0
+        },
+        {
+            "Area": "Iran (Islamic Republic of)",
+            "Value": 7271825.0
+        },
+        {
+            "Area": "Ethiopia",
+            "Value": 6139990.0
+        },
+        {
+            "Area": "Russian Federation",
+            "Value": 3349976.0
+        },
+        {
+            "Area": "Argentina",
+            "Value": 3003036.0
+        },
+        {
+            "Area": "United Republic of Tanzania",
+            "Value": 2998785.0
+        },
+        {
+            "Area": "Spain",
+            "Value": 2904971.0
+        },
+        {
+            "Area": "United States of America",
+            "Value": 2669000.0
+        }
+    ],
+    "density": [
+        {
+            "Area": "Republic of Korea",
+            "Value": 171.8203467516939
+        },
+        {
+            "Area": "Lebanon",
+            "Value": 131.11004784688996
+        },
+        {
+            "Area": "Greece",
+            "Value": 118.33116095786602
+        },
+        {
+            "Area": "El Salvador",
+            "Value": 103.07747148288973
+        },
+        {
+            "Area": "Albania",
+            "Value": 100.85634782608696
+        },
+        {
+            "Area": "Turkey",
+            "Value": 99.2763226586872
+        },
+        {
+            "Area": "Serbia",
+            "Value": 96.11588954277954
+        },
+        {
+            "Area": "Hungary",
+            "Value": 87.71364076104483
+        },
+        {
+            "Area": "Czechia",
+            "Value": 86.21186763027767
+        },
+        {
+            "Area": "Armenia",
+            "Value": 79.77807666442501
+        }
+    ]
+}

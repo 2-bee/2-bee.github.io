@@ -31,8 +31,8 @@ How beehives are distributed in the world, which countries are the best when it 
 Below we present the top 10 countries, both for number of beehives and for the ratio (number of beehives in country / total surface area of country). 
 
 ------
+{% include top10.html %}
 
-- plot top 10 countries for number of beehives + plot top 10 countries for number of beehives divided by total land surface area(ratio)
 
 
 We observe an interesting top ten. Most of these countries are big in terms of size like India, China, Russia and America. But we also have some smaller ones like Spain. The countries are interestingly split throughout the world. So beehives play an important role for every economy. 
