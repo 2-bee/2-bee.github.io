@@ -14,7 +14,7 @@ In this article, we present a data-driven analysis of the present and the past o
 
 The reason behind this choice is that bees are not only important for producing honey and other bee products, but they also play a crucial role in the pollination process which is necessary for the development of crops.
 
-At the beginning, we will introduce trends for the total beehives number and their correlation with some factors and, to conclude, we will present two kinds of prediction models that we trained, one for predicting the number of beehives given the amount of crops production and country size and the other for beehives population forecasting.
+At the beginning, we will introduce trends for the total beehives number and their correlation with factors and, to conclude, we will present two kinds of prediction models that we trained, one for predicting the number of beehives given the amount of crops production and country size and the other for beehives population forecasting.
 
 # Where does the data come from?
 The dataset we are using is about global food and agriculture statistics and it is provided by the United Nations ([FAOSTAT](http://www.fao.org/faostat/en/#home "FAOSTAT")). It contains various agricultural data for 200 countries and about nearly 80 categories(crops, forestry, animals, prices, etc.), and most importantly beehives.
