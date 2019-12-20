@@ -42,7 +42,7 @@ We clearly see a shift towards smaller countries, only turkey preserves its spot
 
 {% include interactive_map.html %}
 
-(Describe this plot)
+In the world map, we added three different configurations for you to explore. There is first the total number of beehives which is dominated by large countries, second the beehives divided by the number of habitants, and then the density of beehives.
 
 ------
 
