@@ -10,7 +10,3 @@ In our project we answered several questions using different datasets. During th
 We would like to conclude the story with a nice racing bar plot for all the gif lovers. Here we present to you a race for the country with the highest number of beehives in the World from 1961 to 2017. 
 
 <img src="../plots/race_chart8.gif" alt="Race chart" title="Race chart&quot; " style="border-radius:0" />
-
-------
-
-## References
