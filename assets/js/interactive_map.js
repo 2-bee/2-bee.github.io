@@ -263,19 +263,26 @@ function ready(data) {
         .attr('transform',"translate(-10 -110)")
         .on('mouseout',function (){
             update_map(years[year_id]);
-            d3.select('#timeline')
-            .selectAll('text')
+            d3.select('#year_label')
             .attr('y',year_id*10+8)
             .text(years[year_id])
         })
     //selected year label
     d3.select('#timeline')
        .append('text')
+       .attr('id','year_label')
        .style('font','bold 15px sans-serif')
        .attr('fill','black')
        .attr("y", year_id * 10 + 8) //year id * 10 + 8
        .attr('x', 65)
        .text(years[year_id]);
+    d3.select('#timeline')
+    .append('g')
+    .attr('transform','rotate(-90), translate(-'+(57 * 5+25)+',-15)')
+    .append("text")// add legend title
+      .style("font", "20px times")
+      .attr('fill','black')
+      .text('Years');
     //ticks
     d3.select('#timeline')
         .append('g')
@@ -296,8 +303,7 @@ function ready(data) {
               d3.select(this).transition()
                    .duration('300')
                    .attr('width', '60')
-              d3.select('#timeline')
-                .selectAll('text')
+              d3.select('#year_label')
                 .attr('y',i*10+8)
                 .text(years[i])
               update_map(years[i])
