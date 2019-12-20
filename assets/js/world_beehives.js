@@ -95,6 +95,7 @@ world_bee_plot.append('text')
 
 var wb_xAxis = d3.axisBottom()
       .scale(wb_scaleX)
+      .tickFormat(d3.format("d"))
 d3.select("#world_beehives_svg").append("g")
     .attr("class", "x axis")
     .attr("transform", "translate("+wb_margin.left/2+"," + (wb_height +wb_margin.top/2)+ ")")

@@ -131,7 +131,7 @@ function update_map(y){
                .style('opacity', '0.5');
 
 
-          let info_data = "<label style='font-size:30px'>"+d.properties.name+'</label>'
+          let info_data = "<label style='font-size:21px'>"+d.properties.name+'</label>'
 
           function numberWithCommas(x) {
                 return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");

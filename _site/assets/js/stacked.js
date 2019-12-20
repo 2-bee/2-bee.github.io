@@ -20,7 +20,7 @@ var stacked_x = d3.scaleLinear()
   .range([ 0, stacked_width ]);
 stacked_svg.append("g")
   .attr("transform", "translate(0," + stacked_height + ")")
-  .call(d3.axisBottom(stacked_x).ticks(5))
+  .call(d3.axisBottom(stacked_x).ticks(5).tickFormat(d3.format("d")))
   .style("font", "14px times")
   .append('text')
   .text('Years')
