@@ -29,4 +29,4 @@ Obviously the number of beehives is not the same as the total number of bees. No
 # Structure of the article
 1. *bees distribution*: in this section we are going to explore spatial and temporal distribution of beehives in the world
 2. *correlated factors*: in this section we are going to analyse how other factors are correlated to the number of beehives
-3. *model prediction*: in this section we present the results of two models which goal is to predict the number of beehives and their population in the future (given the factors above).
+3. *model prediction*: in this section we present the results of two models which goal is to predict the number of beehives and their population in the future (given the factors above)
