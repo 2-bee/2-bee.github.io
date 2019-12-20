@@ -32330,7 +32330,7 @@ var top10_beehives={
             "Value": 7796666.0
         },
         {
-            "Area": "Iran (Islamic Republic of)",
+            "Area": "Iran ",
             "Value": 7271825.0
         },
         {
@@ -32346,7 +32346,7 @@ var top10_beehives={
             "Value": 3003036.0
         },
         {
-            "Area": "United Republic of Tanzania",
+            "Area": "Tanzania",
             "Value": 2998785.0
         },
         {

@@ -1,5 +1,5 @@
 // set the dimensions and margin_top10s of the graph
-var margin_top10 = {top: 30, right: 30, bottom: 100, left: 60},
+var margin_top10 = {top: 30, right: 30, bottom: 120, left: 70},
     width_top10 = 960 - margin_top10.left - margin_top10.right,
     height_top10 = 600 - margin_top10.top - margin_top10.bottom;
 
@@ -26,6 +26,7 @@ function ready_top10(){
     .domain(top10_Data().map(function(d) { return d.Area; }))
     .padding(0.2);
   top_10.append("g")
+    .style("font", "14px times")
     .attr('id','x_top10')
     .attr("transform", "translate(0," + height_top10 + ")")
     .call(d3.axisBottom(x))
@@ -39,7 +40,8 @@ function ready_top10(){
     .range([ height_top10, 0]);
   top_10.append("g")
     .attr('id','y_top10')
-    .call(d3.axisLeft(y));
+    .call(d3.axisLeft(y))
+    .style("font", "14px times");
 
   // Bars
   top_10.selectAll("mybar")
@@ -61,6 +63,7 @@ function update_top_10(){
     .padding(0.2);
   d3.select('#x_top10').remove()
   top_10.append("g")
+    .style("font", "14px times")
     .attr('id','x_top10')
     .attr("transform", "translate(0," + height_top10 + ")")
     .call(d3.axisBottom(x))

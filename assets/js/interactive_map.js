@@ -103,10 +103,12 @@ function update_map(y){
     //add ticks
     d3.select('#legendTicks').remove()
     svg.append("g")
+      .style("font", "20px times")
       .attr('id','legendTicks')
       .attr("transform", "translate(100, 860)")
       .call(yAxis)
       .append("text")// add legend title
+      .style("font", "20px times")
       .attr('fill','black')
       .attr("y", -30)
       .attr('x',(width-180)/2)
@@ -343,7 +345,9 @@ function ready(data) {
       .attr('id','legendTicks')
       .attr("transform", "translate(100, 860)")
       .call(yAxis)
+      .style("font", "20px times")
       .append("text")// add legend title
+      .style("font", "20px times")
       .attr('fill','black')
       .attr("y", -30)
       .attr('x',(width-180)/2)

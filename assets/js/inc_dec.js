@@ -193,12 +193,14 @@ function id_ready(){
 		  .attr("height", id_y.bandwidth()-10);
 
 	inc_dec.append("g")
+	  .style("font", "14px times")
 	  .attr('id','inc_dec_x')
 	  .attr("class", "x axis")
 	  .attr("transform", "translate(0," + id_height + ")")
 	  .call(id_xAxis);
 
 	inc_dec.append("g")
+	  .style("font", "14px times")
 	  .attr('id','inc_dec_y')
 	  .attr("class", "y axis")
 	  .attr("transform", "translate(" + id_x(0) + ",0)")
@@ -250,6 +252,7 @@ function update_inc_dec(){
 	d3.select('#inc_dec_x').remove()	
 	//d3.select('#inc_dec_y').remove()
 	inc_dec.append("g")
+      .style("font", "14px times")
 	  .attr('id','inc_dec_x')
 	  .attr("class", "x axis")
 	  .attr("transform", "translate("+id_margin.left+"," + (id_height + id_margin.top)+ ")")
@@ -257,6 +260,7 @@ function update_inc_dec(){
 	
 	
 	d3.select('#inc_dec_y')
+	  .style("font", "14px times")
 	  .transition()
       .duration('200')
 	  .attr("transform", "translate(" + (id_x(0)) + ",0)")
