@@ -28,8 +28,7 @@ We picked some of the most interesting countries, in particular the ones with hi
 
 ### **Around the world**
 How beehives are distributed in the world, which countries are the best when it comes to beehives? 
-Below we present the top 10 countries, both for number of beehives and for the ratio (number of beehives in country / total surface area of country). 
-    
+Below we present the top 10 countries, both for number of beehives and for the ratio (number of beehives in country / total surface area of country). For easier comparison the values are normalized a scale between 0 and 1. 
 
 {% include top10.html %}
 
@@ -53,4 +52,4 @@ We are presenting below the obtained results and providing some explanation of w
 #### _Crops_
 80% of flowering plants depend upon bees for pollination. Pollination is crucial because many of our vegetables, fruits and the crops that feed our livestock rely on it to be fertilised. Vegetables such as broccoli, asparagus and cucumber rely on the pollination of bees, as do apricots, strawberries, apples, tomatoes and almonds.
 
-(-- plot here ???)
+<iframe src="{{ site.baseurl }}/../../plots/selected_Correlation.html" frameborder="0" allowfullscreen="false" style='width:70%; height:600px;display:inline' scrolling="no"></iframe><iframe src="{{ site.baseurl }}/../../plots/boxplot.html" frameborder="0" allowfullscreen="false" style='width:28%; height:600px; display:inline' scrolling="no"></iframe>
