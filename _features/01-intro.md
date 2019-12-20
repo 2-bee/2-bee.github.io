@@ -18,7 +18,7 @@ The reason behind this choice is that bees are not only important for producing 
 At the beginning, we will introduce trends for the total beehives number and their correlation with factors and, to conclude, we will present two kinds of __prediction__ models that we trained, one for predicting the number of beehives given the amount of crops production and country size and the other for beehives population forecasting.
 
 # Where does the data come from?
-The dataset we are using is about global food and agriculture statistics and it is provided by the United Nations ([FAOSTAT](http://www.fao.org/faostat/en/#home "FAOSTAT")). It contains various agricultural data for 200 countries and about nearly 80 categories(crops, forestry, animals, prices, etc.), and most importantly beehives. An important thing to mention is that this data contains only the the honey bee species that are kept by beekepers and doesn't include all the wild bee species that are present all over the World.
+The dataset we are using is about global food and agriculture statistics and it is provided by the United Nations ([FAOSTAT](http://www.fao.org/faostat/en/#home "FAOSTAT")). It contains various agricultural data for 200 countries and about nearly 80 categories(crops, forestry, animals, prices, etc.), and most importantly beehives. An important thing to mention is that this data contains only the honey bee species that are kept by beekepers and doesn't include all the wild bee species that are present all over the World.
 
 
 # Beehives, a good indicator?
