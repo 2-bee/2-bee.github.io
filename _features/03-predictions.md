@@ -14,4 +14,4 @@ Let us now move further and predict the value until 2030.
 
 <img src="../plots/beehives_arima.png" alt="Arima Prediction" title="Beehives Future Prediction&quot; " style="border-radius:0" />
 
-This is giving us a positive outlook for the future of bees. :honeybee:  
+This is giving us a positive outlook for the future of bees.
