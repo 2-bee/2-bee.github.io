@@ -17,10 +17,10 @@ But there could still be some differences between continents. Let’s look at th
 {% include stacked.html %}
 
 Not only we see a huge increase on the asian and african continent, we see a massive drop in Europe and America. America recovered but Europe still suffers in order to increase their population.
- 
- ------
 
-We picked some of the most interesting countries, in particular the ones with high increase or decrease in the number of beehives. The graph shows the <span style="background-color: #c4e9f3">percentage changes</span> between the two picked year at the bottom. This graph is __interactive__ as well, so feel free to __explore__! 
+------
+
+We picked some of the most interesting countries, in particular the ones with high increase or decrease in the number of beehives. The graph shows the __percentage changes__ between the two picked year at the bottom. This graph is __interactive__ as well, so feel free to __explore!__
 
 {% include inc_dec.html %}
 
@@ -29,14 +29,14 @@ We picked some of the most interesting countries, in particular the ones with hi
 ### **Around the world**
 How beehives are distributed in the world, which countries are the best when it comes to beehives? 
 Below we present the top 10 countries, both for number of beehives and for the ratio (number of beehives in country / total surface area of country). 
+    
 
-------
 {% include top10.html %}
 
 
 
 The _interactive_ plot above is showing insights into the countries with the biggest beehives population. We see that most of these countries are big in terms of size like India, China, Russia, and America. This is not a huge surprise since they have a lot of agricultural areas that bees can exploit.  Although it is important to look at top ten by beehives number, we don't believe this is a fair competition for smaller countries, this is why we will show the top ten by density - just press the button in the graphic! Do you see how the plot is changing? 
-We clearly see a shift towards smaller countries, only Turkey preserves its spot in the top ten and Korea made it on the podium! 
+We clearly see a shift towards smaller countries, only Turkey preserves its spot in the top ten and Korea made it to the podium! 
 
 ------
 
