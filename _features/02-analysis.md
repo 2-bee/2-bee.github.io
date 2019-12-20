@@ -36,7 +36,7 @@ Below we present the top 10 countries, both for number of beehives and for the r
 
 
 The _interactive_ plot above is showing insights into the countries with the biggest beehives population. We see that most of these countries are big in terms of size like India, China, Russia, and America. This is not a huge surprise since they have a lot of agricultural areas that bees can exploit.  Although it is important to look at top ten by beehives number, we don't believe this is a fair competition for smaller countries, this is why we will show the top ten by density - just press the button in the graphic! Do you see how the plot is changing? 
-We clearly see a shift towards smaller countries, only turkey preserves its spot in the top ten and Korea made it on the podium! 
+We clearly see a shift towards smaller countries, only Turkey preserves its spot in the top ten and Korea made it on the podium! 
 
 ------
 
@@ -46,11 +46,11 @@ In the world map, we added three different configurations for you to explore. Th
 
 ------
 
-### But, what factors influence beehives? 
+### **But, what factors influence beehives?**
 We took into consideration some of the available categories in the dataset, mainly related to crops, and for each one we analysed the correlation with beehives. 
 We are presenting below the obtained results and providing some explanation of why these factors could be correlated.
 
-#### Crops
+### _Crops_
 80% of flowering plants depend upon bees for pollination. Pollination is crucial because many of our vegetables, fruits and the crops that feed our livestock rely on it to be fertilised. Vegetables such as broccoli, asparagus and cucumber rely on the pollination of bees, as do apricots, strawberries, apples, tomatoes and almonds.
 
 (-- plot here ???)
