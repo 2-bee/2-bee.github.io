@@ -28,7 +28,7 @@ We picked some of the most interesting countries, in particular the ones with hi
 
 ### **Around the world**
 How beehives are distributed in the world, which countries are the best when it comes to beehives? 
-Below we present the top 10 countries, both for number of beehives and for the ratio (number of beehives in country / total surface area of country). 
+Below we present the top 10 countries, both for number of beehives and for the ratio (number of beehives in country / total surface area of country). For easier comparison the values are normalized a scale between 0 and 1. 
 
 ------
 {% include top10.html %}
