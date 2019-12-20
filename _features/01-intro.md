@@ -22,7 +22,7 @@ The dataset we are using is about global food and agriculture statistics and it 
 
 
 # Beehives, a good indicator?
-Obviously the number of beehives is not the same as the total number of bees. Nonetheless we assume the numbers to be highly correlated and that beehives is a good indicator of the bee population. Of course, it would be nearly impossible to count all the bees, so the experts usually talk about _bee colonies_ instead which coresponds to beehives and bee nests. The assumption we make is that beekepers remove beehives that don't have any bees inside and that those are not included in the count.
+Obviously the number of beehives is not the same as the total number of bees. Nonetheless we assume the numbers to be highly correlated and that beehives is a good indicator of the bee population. Of course, it would be nearly impossible to count all the bees, so the experts usually talk about _bee colonies_ instead which corresponds to beehives and bee nests. The assumption we make is that beekepers remove beehives that don't have any bees inside and that those are not included in the count.
 
 ------
 
