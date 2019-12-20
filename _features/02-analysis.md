@@ -50,7 +50,7 @@ In the world map, we added three different configurations for you to explore. Th
 We took into consideration some of the available categories in the dataset, mainly related to crops, and for each one we analysed the correlation with beehives. 
 We are presenting below the obtained results and providing some explanation of why these factors could be correlated.
 
-### _Crops_
+#### _Crops_
 80% of flowering plants depend upon bees for pollination. Pollination is crucial because many of our vegetables, fruits and the crops that feed our livestock rely on it to be fertilised. Vegetables such as broccoli, asparagus and cucumber rely on the pollination of bees, as do apricots, strawberries, apples, tomatoes and almonds.
 
 (-- plot here ???)
