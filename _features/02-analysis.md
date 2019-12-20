@@ -20,7 +20,7 @@ Not only we see a huge increase on the asian and african continent, we see a mas
  
  ------
 
-We picked some of the most interesting countries, in particular the ones with high increase or decrease in the number of beehives. The graph shows the <span style="background-color: #c4e9f3">percentage changes</span> between the two picked year at the bottom. This graph is _interactive_ as well, so free feel to _explore_! 
+We picked some of the most interesting countries, in particular the ones with high increase or decrease in the number of beehives. The graph shows the <span style="background-color: #c4e9f3">percentage changes</span> between the two picked year at the bottom. This graph is __interactive__ as well, so free feel to __explore__! 
 
 {% include inc_dec.html %}
 
