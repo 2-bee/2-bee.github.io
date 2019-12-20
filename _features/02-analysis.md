@@ -17,8 +17,8 @@ But there could still be some differences between continents. Let’s look at th
 {% include stacked.html %}
 
 Not only we see a huge increase on the asian and african continent, we see a massive drop in Europe and America. America recovered but Europe still suffers in order to increase their population.
- 
- ------
+
+------
 
 We picked some of the most interesting countries, in particular the ones with high increase or decrease in the number of beehives. The graph shows the <span style="background-color: #c4e9f3">percentage changes</span> between the two picked year at the bottom. This graph is __interactive__ as well, so feel free to __explore__! 
 
@@ -53,4 +53,4 @@ We are presenting below the obtained results and providing some explanation of w
 #### _Crops_
 80% of flowering plants depend upon bees for pollination. Pollination is crucial because many of our vegetables, fruits and the crops that feed our livestock rely on it to be fertilised. Vegetables such as broccoli, asparagus and cucumber rely on the pollination of bees, as do apricots, strawberries, apples, tomatoes and almonds.
 
-(-- plot here ???)
+<iframe src="{{ site.baseurl }}/../../plots/selected_Correlation.html" frameborder="0" allowfullscreen="false" style='width:70%; height:600px;display:inline' scrolling="no"></iframe><iframe src="{{ site.baseurl }}/../../plots/boxplot.html" frameborder="0" allowfullscreen="false" style='width:28%; height:600px; display:inline' scrolling="no"></iframe>
