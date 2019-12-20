@@ -35,8 +35,8 @@ Below we present the top 10 countries, both for number of beehives and for the r
 
 
 
-We observe an interesting top ten. Most of these countries are big in terms of size like India, China, Russia and America. But we also have some smaller ones like Spain. The countries are interestingly split throughout the world. So beehives play an important role for every economy. 
-Since we believe this is not a fair competition we will show the top ten countries by country size. Here we clearly see a shift towards smaller countries like XXXX.
+The _interactive_ plot above is showing insights into the countries with the biggest beehives population. We see that most of these countries are big in terms of size like India, China, Russia, and America. This is not a huge surprise since they have a lot of agricultural areas that bees can exploit.  Although it is important to look at top ten by beehives number, we don't believe this is a fair competition for smaller countries, this is why we will show the top ten by density - just press the button in the graphic! Do you see how the plot is changing? 
+We clearly see a shift towards smaller countries, only turkey preserves its spot in the top ten and Korea made it on the podium! 
 
 ------
 
