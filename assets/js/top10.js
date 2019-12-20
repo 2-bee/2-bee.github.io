@@ -78,7 +78,8 @@ function update_top_10(){
   d3.select('#y_top10').remove()  
   top_10.append("g")
     .attr('id','y_top10')
-    .call(d3.axisLeft(y));
+    .call(d3.axisLeft(y))
+    .style("font", "14px times");
 
   // Bars
   top_10.selectAll("rect")
